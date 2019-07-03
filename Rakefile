@@ -1,8 +1,8 @@
-require_relative './config/environment'
-require 'sinatra/activerecord/rake'
+require_relative "./config/environment"
+require "sinatra/activerecord/rake"
 
 task :console do
-  require 'irb'
+  require "irb"
   ARGV.clear
   IRB.start
 end
